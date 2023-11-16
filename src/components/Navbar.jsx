@@ -21,7 +21,7 @@ function Navbar() {
                     <Link href="#" color="inherit" sx={{ mx: 2, textDecoration: 'none' }}>Self-awareness Test</Link>
                     <Link href="#" color="inherit" sx={{ mx: 2, textDecoration: 'none' }}>Work With Us</Link>
                 </Box>
-                <Button sx={{ mx: 2, py: 1.5,px: 2.5 ,textTransform: 'none', bgcolor: 'black', color: 'white', borderRadius: '30px' }}>Download App</Button>
+                <Button variant="contained" sx={{ mx: 2, py: 1.5,px: 2.5 ,textTransform: 'none', bgcolor: 'black', color: 'white', borderRadius: '30px' }}>Download App</Button>
             </Toolbar>
         </AppBar>
     );
