@@ -14,7 +14,22 @@ function EQ() {
                 </Box>
             </Box>
 
-            <Box sx={{ display: 'flex', gap: 5, overflowX: 'scroll', height: '30vh', m: 8, overflow: 'auto' }} >
+            <Box sx={{ display: 'flex', gap: 5, overflowX: 'scroll', height: '30vh', m: 8, overflow: 'auto', 
+            '&::-webkit-scrollbar': { 
+                width: '0px',
+                height: '0px',
+            },
+            '&:hover::-webkit-scrollbar': {
+                width: '0px',
+                height: '0px',
+            },
+            '&::-webkit-scrollbar-thumb': {
+                backgroundColor: 'darkgrey',
+                borderRadius: '10px',
+            },
+            '&::-webkit-scrollbar-thumb:hover': {
+                backgroundColor: 'grey',
+  }, }} >
                 <Box sx={{bgcolor: '#eeebfe', borderRadius: '20px', flexBasis: '25%', flexShrink: 0, p: 3 }} >
                     <Typography variant="h4">😠</Typography>
                     <Typography variant="body1" fontWeight={600}>You argue with a colleague</Typography>
