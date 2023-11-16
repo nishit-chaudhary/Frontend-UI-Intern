@@ -41,14 +41,14 @@ function EQ() {
                     <Typography variant="h4">😳</Typography>
                     <Typography variant="body1" fontWeight={600}>You get a promotion at work</Typography>
                     <Typography variant="body2">
-                    You question yourself and wonder when they'll realize you're an unqualified imposter, instead of trusting yourself & your abilities.
+                    You question yourself and wonder when they&apos;ll realize you&apos;re an unqualified imposter, instead of trusting yourself & your abilities.
                     </Typography>
                 </Box>
                 <Box sx={{bgcolor: '#ffefd5', borderRadius: '20px', flexBasis: '25%', flexShrink: 0, p: 3 }} >
                     <Typography variant="h4">🤨</Typography>
                     <Typography variant="body1" fontWeight={600}>You argue with a colleague</Typography>
                     <Typography variant="body2">
-                    You compare yourself with your peers' achievements, instead of making your self-judgement more independent of others.
+                    You compare yourself with your peers&apos; achievements, instead of making your self-judgement more independent of others.
                     </Typography>
                 </Box>
                 <Box sx={{bgcolor: '#fffaee', borderRadius: '20px', flexBasis: '25%', flexShrink: 0, p: 3 }} >
